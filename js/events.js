@@ -10,6 +10,6 @@ $( "p" ).on( "click", function() {
 
 function frameIt() {
 $( "img" ).load(function() {
-  $( "img" ).addClass( '.tasty' );
+  $( "img" ).addClass( 'tasty' );
 });
 }
