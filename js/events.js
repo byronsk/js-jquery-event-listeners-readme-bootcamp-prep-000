@@ -9,7 +9,9 @@ $( "p" ).on( "click", function() {
  }
 
 function frameIt() {
-  $('.tasty').load(function(){
-  alert("Image loaded.");
+$( '.tasty' ).load(function() {
+  if ( $( this ).height() > 100) {
+    $( this ).addClass( '.tasty' );
+  }
 });
 }
