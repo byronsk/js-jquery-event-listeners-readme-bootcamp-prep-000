@@ -10,7 +10,7 @@ $( "p" ).on( "click", function() {
  }
 
 function frameIt() {
-$( "p" ).load(function() {
+$( "" ).load(function() {
   $( "p" ).addClass( '.tasty' );
 });
 }
