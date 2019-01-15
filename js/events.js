@@ -2,7 +2,7 @@
 
 
 
-$( "p" ).click(function() {
+$( "p" ).click(function(getIt) {
   alert( "Hey!" );
 });
 
