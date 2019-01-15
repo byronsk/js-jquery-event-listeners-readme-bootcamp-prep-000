@@ -1,9 +1,8 @@
 //define functions here
 
 
-$( "#target" ).click(function() {
+$( ".p" ).click(function() {
   alert( "Handler for .click() called." );
-
-}
+  return 
 });
 
