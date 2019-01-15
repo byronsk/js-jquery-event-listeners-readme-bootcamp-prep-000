@@ -2,7 +2,6 @@
 
 
 $( "p" ).click(function() {
-  alert( "Handler for .click() called." );
-  return 
+  alert( "Hey!" );
 });
 
