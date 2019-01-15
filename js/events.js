@@ -9,7 +9,7 @@ $( "p" ).on( "click", function() {
  }
 
 function frameIt() {
-  $("img").load(function(){
+  $('.tasty').load(function(){
   alert("Image loaded.");
 });
 }
