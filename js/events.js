@@ -10,8 +10,8 @@ $( "p" ).on( "click", function() {
  }
 
 function frameIt() {
-$( "" ).load(function() {
-  $( "p" ).addClass( '.tasty' );
+$( "img" ).load(function() {
+  $( "img" ).addClass( '.tasty' );
 });
 }
 
