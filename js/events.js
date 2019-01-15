@@ -12,8 +12,6 @@ $( "p" ).on( "click", function() {
 
 function frameIt() {
 $( '.tasty' ).load(function() {
-  if ( $( this ).height() > 0) {
     $( this ).addClass( '.tasty' );
-  }
 });
 }
