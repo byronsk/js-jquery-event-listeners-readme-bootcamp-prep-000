@@ -1,8 +1,8 @@
 //define functions here
 
+function getIt() {
+$( "p" ).on( "click", function() {
+  console.log( $( "Hey!" ).text() );
 
-
-$( "p" ).click(function(getIt) {
-  alert( "Hey!" );
 });
-
+}
