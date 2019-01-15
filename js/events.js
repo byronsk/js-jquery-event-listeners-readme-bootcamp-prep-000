@@ -2,7 +2,8 @@
 
 function getIt() {
 $( "p" ).on( "click", function() {
-  console.log( $( "p" ).text("Hey!") );
+  alert('Hey!');
+  return;
   
 });
 }
