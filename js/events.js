@@ -9,5 +9,7 @@ $( "p" ).on( "click", function() {
  }
 
 function frameIt() {
-  
+  $("img").load(function(){
+  alert("Image loaded.");
+});
 }
