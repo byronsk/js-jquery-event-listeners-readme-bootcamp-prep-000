@@ -2,7 +2,7 @@
 
 function getIt() {
 $( "p" ).on( "click", function() {
-  console.log( $( "Hey!" ).text() );
-
+  console.log( $( "p" ).text("Hey!") );
+  
 });
 }
