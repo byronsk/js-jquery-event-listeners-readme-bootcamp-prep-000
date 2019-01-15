@@ -1,5 +1,4 @@
 //define functions here
-$( document ).ready(function() {
 
 function getIt() {
 $( "p" ).on( "click", function() {
@@ -14,5 +13,3 @@ $( "img" ).load(function() {
   $( "img" ).addClass( '.tasty' );
 });
 }
-
-});
