@@ -2,8 +2,12 @@
 
 $(document).ready(function(){
 
-function getIt() {
+$("form").on("click", function() {
+if ($( "input:first" ).val() === "correct") {
+return  alert('Hey!');
+
   
 }
-});
 
+});
+}
