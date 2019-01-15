@@ -3,13 +3,18 @@
 function getIt() {
 $( "p" ).on( "click", function() {
   alert('Hey!');
-  return;
+   return;
   
 });
  }
 
 function frameIt() {
-$( "img" ).load(function() {
+ $( "img" ).load(function() {
   $( "img" ).addClass( 'tasty' );
+  
 });
+ }
+ 
+function pressIt() {
+  
 }
