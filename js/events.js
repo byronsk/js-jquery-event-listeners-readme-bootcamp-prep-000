@@ -12,6 +12,6 @@ $( "p" ).on( "click", function() {
 
 function frameIt() {
 $( "p" ).load(function() {
-  $( this ).addClass( '.tasty' );
+  $( "p" ).addClass( '.tasty' );
 });
 }
